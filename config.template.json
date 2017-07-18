@@ -1,0 +1,4 @@
+{
+    "rabbitMQAddr": "amqp://guest:guest@localhost:5672/",
+    "sentryDSN": ""
+}
