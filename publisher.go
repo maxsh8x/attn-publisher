@@ -63,7 +63,7 @@ func main() {
 
 		ua := user_agent.New(string(ctx.UserAgent()))
 		name, version := ua.Browser()
-		msg := &common.RabbitMSG{
+		msg := &common.QueueMSG{
 			event,
 			common.BaseEvent{
 				Date:     time.Now(),
