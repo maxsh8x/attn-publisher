@@ -12,7 +12,7 @@ import (
 	"github.com/labstack/echo/middleware"
 	"github.com/mssola/user_agent"
 	"github.com/streadway/amqp"
-	common "gitlab.com/maksimsharnin/attn-common"
+	common "gitlab.com/attnstore/attn-common"
 )
 
 type config struct {
